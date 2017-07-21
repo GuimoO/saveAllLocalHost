@@ -1,0 +1,23 @@
+PetanqueBundle\Entity\Game:
+    type: entity
+    table: null
+    repositoryClass: PetanqueBundle\Repository\GameRepository
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    fields:
+        name:
+            type: string
+            length: 255
+        score:
+            type: string
+            length: 255
+
+    manyToOne:
+        team_1:
+            targetEntity: PetanqueBundle\Entity\Team
+        team_2:
+            targetEntity: PetanqueBundle\Entity\Team

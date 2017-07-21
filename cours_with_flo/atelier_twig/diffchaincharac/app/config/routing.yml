@@ -1,0 +1,4 @@
+diff:
+    resource: "@DiffBundle/Resources/config/routing.yml"
+    prefix:   /
+

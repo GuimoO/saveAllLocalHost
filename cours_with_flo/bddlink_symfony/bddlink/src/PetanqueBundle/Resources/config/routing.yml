@@ -1,0 +1,7 @@
+petanque_player:
+    resource: "@PetanqueBundle/Resources/config/routing/player.yml"
+    prefix:   /player
+
+petanque_homepage:
+    path:     /
+    defaults: { _controller: PetanqueBundle:Default:index }

@@ -1,0 +1,7 @@
+upload_article:
+    resource: "@UploadBundle/Resources/config/routing/article.yml"
+    prefix:   /article
+
+upload_homepage:
+    path:     /
+    defaults: { _controller: UploadBundle:Default:index }

@@ -1,0 +1,15 @@
+/* line 1, ../sass/test.scss */
+* {
+  color: blue;
+  font-size: 1em;
+}
+
+/* line 7, ../sass/test.scss */
+input {
+  color: red;
+}
+
+/* line 11, ../sass/test.scss */
+nav {
+  color: blue;
+}

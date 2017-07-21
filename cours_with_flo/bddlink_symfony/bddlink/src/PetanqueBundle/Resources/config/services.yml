@@ -1,0 +1,4 @@
+services:
+#    petanque.example:
+#        class: PetanqueBundle\Example
+#        arguments: ["@service_id", "plain_value", "%parameter%"]

@@ -1,0 +1,19 @@
+<?php
+
+namespace PetanqueBundle\Entity;
+
+/**
+ * Player
+ */
+class Player
+{
+
+    public function __toString()
+    {
+
+        return $this->name;
+    }
+    /*****************************************************************************/
+
+   
+}

@@ -1,0 +1,8 @@
+diff_homepage:
+    path:     /
+    defaults: { _controller: DiffBundle:Default:form }
+
+diff_result:
+    path:     /result
+    defaults: { _controller: DiffBundle:Default:form }
+

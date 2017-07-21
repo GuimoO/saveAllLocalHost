@@ -1,0 +1,21 @@
+PetanqueBundle\Entity\Team:
+    type: entity
+    table: null
+    repositoryClass: PetanqueBundle\Repository\TeamRepository
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    fields:
+        name:
+            type: string
+            length: 255
+            unique: true
+
+
+    oneToMany:
+        players:
+            targetEntity: PetanqueBundle\Entity\Player
+            mappedBy: team

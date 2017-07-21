@@ -1,0 +1,24 @@
+PetanqueBundle\Entity\Player:
+    type: entity
+    table: null
+    repositoryClass: PetanqueBundle\Repository\PlayerRepository
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    fields:
+        name:
+            type: string
+            length: 255
+
+    manyToOne:
+        team:
+            targetEntity: PetanqueBundle\Entity\Team
+            inversedBy: players
+
+    manyToMany:
+        tournaments:
+            targetEntity: PetanqueBundle\Entity\Tournament
+            inversedBy: players

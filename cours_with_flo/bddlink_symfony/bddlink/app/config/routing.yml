@@ -1,0 +1,5 @@
+petanque:
+    resource: "@PetanqueBundle/Resources/config/routing.yml"
+    prefix:   /
+
+

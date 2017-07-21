@@ -1,0 +1,12 @@
+{% extends 'base.html.twig' %}
+
+{% block result %}
+
+{{ dump(resultat) }}
+
+{% if resultat.textone != resultat.texttwo %}
+{% set result = (resultat.textone|length) - (resultat.texttwo|length)  %}
+{{ result }}
+{% endif %}
+
+{% endblock %}

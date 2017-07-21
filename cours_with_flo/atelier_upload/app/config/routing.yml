@@ -1,0 +1,4 @@
+upload:
+    resource: "@UploadBundle/Resources/config/routing.yml"
+    prefix:   /
+

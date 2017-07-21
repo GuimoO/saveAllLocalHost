@@ -1,0 +1,3 @@
+compass_homepage:
+    path:     /
+    defaults: { _controller: CompassBundle:Default:index }
